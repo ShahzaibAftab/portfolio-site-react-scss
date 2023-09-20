@@ -5,7 +5,7 @@ import "./projects.css";
 import DataApi from "./DataApi.js";
 const Projects = () => {
   return (
-    <section className="projects container section">
+    <section id="Projects" className="projects container section">
       <div className="sectionTitle">
         <span className="titleNumber">03.</span>
         <h5 className="titleText">
@@ -39,11 +39,11 @@ const Projects = () => {
                       <TfiNewWindow className="icon"></TfiNewWindow>
                     </a>
                   </div>
-                  <div className="githubIcon">
+                  {/* <div className="githubIcon">
                     <a href={github} target="_blank">
-                      <AiFillGithub className="icon">jj</AiFillGithub>
+                      <AiFillGithub className="icon"></AiFillGithub>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="imgDiv">

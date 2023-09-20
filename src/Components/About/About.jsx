@@ -18,7 +18,7 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-          I am a Success driven, determined, and passionate Full-Stack developer who excels in creating front-end experiences using React JS, Bootstrap 5, and SASS (Syntactically Awesome Stylesheets). I have a proven track record of successfully developing accessible component-based web applications and systems. Additionally, I possess extensive expertise in utilizing Node.js, Express.js, and MongoDB for the implementation of backend of several full-stack applications.
+          I am a Success driven, determined, and passionate Full-Stack Engineer who excels in creating front-end experiences using React JS along with Numerous styling Libraries. I have a proven track record of successfully developing reuse-able component-based web applications and systems. Additionally, I possess extensive expertise in utilizing Node.js, Express.js, and MongoDB for the creation of Servers for Full-stack applications.
            <br />
             Ability to deliver Quality results while collaborating in rapidly
             changing work environments and team composition.
@@ -27,11 +27,11 @@ const About = () => {
             better developer then before. Determined and result
             oriented.
           </h4>
-          <div className="aboutBtn">
+          {/* <div className="aboutBtn">
             <a href="Resume.pdf" download="Resume.pdf" className="flex">
               Download CV <TbCloudDownload className="icon" />
             </a>
-          </div>
+          </div> */}
         </div>
 
         <div className="aboutImgDiv">

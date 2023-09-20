@@ -30,7 +30,7 @@ const Navbar = () => {
     <header className={activeHeader}>
       <div className="logoDiv">
         <h1 className="logo">
-          <a href="#home">Personal Porfolio</a>
+          <a href="#home">Shahzaib Aftab</a>
         </h1>
       </div>
       <div className={active}>
@@ -48,16 +48,17 @@ const Navbar = () => {
           </li>
 
           <li className="navItem">
-            <a href="#Projects" className="navLink">
+            <a href="#Contact" className="navLink">
               <span className="headerNumber">3.</span> Contact
             </a>
           </li>
 
           <li className="navItem">
-            <a href="#about" className="navLink">
-              <span className="headerNumber">4.</span> About
+            <a href="#Projects" className="navLink">
+              <span className="headerNumber">4.</span> Projects
             </a>
           </li>
+
           <button className="btn">
             <a href="Resume.pdf" download="Resume.pdf">Resume</a>
           </button>

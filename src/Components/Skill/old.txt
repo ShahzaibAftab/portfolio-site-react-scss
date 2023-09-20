@@ -9,16 +9,21 @@ import { SiHtml5 } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { GrNode } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
+import { SiPython } from "react-icons/si";
 import { SiWordpress } from "react-icons/si";
 import { SiElementor } from "react-icons/si";
 import { SiWoo } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
-import { SiChakraui } from "react-icons/si";
-import { SiMaterialdesign } from "react-icons/si";
+import { SiSqlite } from "react-icons/si";
+import { SiFlutter } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
+import { FaMobile } from "react-icons/fa";
+import { FaDesktop } from "react-icons/fa";
+import { CgWebsite } from "react-icons/cg";
 import "./skill.css";
 const Skill = () => { 
   return (
-    <section id="Skills" className="skills container section">
+    <section className="skills container section">
       <div className="sectionTitle">
         <span className="titleNumber">02.</span>
         <h5 className="titleText">
@@ -41,23 +46,23 @@ const Skill = () => {
             {/* single skill div */}
             <div className="singleSkill">
               <div className="iconBox flex">
-                <SiHtml5 className="icon" />
+                <CgWebsite className="icon" />
               </div>
-              <span className="skillName">HTML5</span>
+              <span className="skillName">Web App</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <IoLogoCss3 className="icon" />
+                <FaMobile className="icon" />
               </div>
-              <span className="skillName">CSS3</span>
+              <span className="skillName">Mobile App</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <IoLogoJavascript className="icon" />
+                <FaDesktop className="icon" />
               </div>
-              <span className="skillName">Javascript</span>
+              <span className="skillName">Desktop</span>
             </div>
 
           </div>
@@ -70,11 +75,25 @@ const Skill = () => {
         {/* Single Group of skills */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title"> Libraries & Preprocessors</h2>
+            <h2 className="title"> Technologies</h2>
             <span className="subTitle"></span>
           </div>
           <div className="generalSkills">
             {/* single skill div */}
+
+            {/* <div className="singleSkill">
+              <div className="iconBox flex">
+                <BsBootstrap className="icon" />
+              </div>
+              <span className="skillName">Bootsrap5</span>
+            </div> */}
+{/* 
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <IoLogoSass className="icon" />
+              </div>
+              <span className="skillName">SASS</span>
+            </div> */}
 
             <div className="singleSkill">
               <div className="iconBox flex">
@@ -82,33 +101,18 @@ const Skill = () => {
               </div>
               <span className="skillName">ReactJS</span>
             </div>
-
             <div className="singleSkill">
               <div className="iconBox flex">
-                <BsBootstrap className="icon" />
+                <SiFlutter className="icon" />
               </div>
-              <span className="skillName">Bootsrap5</span>
+              <span className="skillName">Flutter</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <IoLogoSass className="icon" />
+                <SiPython className="icon" />
               </div>
-              <span className="skillName">SASS</span>
-            </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiMaterialdesign className="icon" />
-              </div>
-              <span className="skillName">Material UI</span>
-            </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <SiChakraui className="icon" />
-              </div>
-              <span className="skillName">Chakra UI</span>
+              <span className="skillName">Python</span>
             </div>
 
           </div>
@@ -145,6 +149,20 @@ const Skill = () => {
                 <SiMongodb className="icon" />
               </div>
               <span className="skillName">MongoDB</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiDjango className="icon" />
+              </div>
+              <span className="skillName">Django</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiSqlite className="icon" />
+              </div>
+              <span className="skillName">Sqlite</span>
             </div>
 
           </div>
