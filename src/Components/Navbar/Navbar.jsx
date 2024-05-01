@@ -60,7 +60,7 @@ const Navbar = () => {
           </li>
 
           <button className="btn">
-            <a href="Resume.pdf" download="Resume.pdf">Resume</a>
+            <a href="Full-Stack-Developer-Resume.pdf" download="Full-Stack-Developer-Resume.pdf">Resume</a>
           </button>
         </ul>
         <div className="closeNavBar" onClick={RemoveNavBar}>
