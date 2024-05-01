@@ -16,6 +16,7 @@ header {
   width: 100%;
   height: 5rem;
   z-index: 1000;
+  margin-right: 100px;
   // background: var(--projectCardColor);
 
   .logo a {
@@ -34,9 +35,11 @@ header {
       padding: 1rem;
       top: -100rem;
       left: 50%;
+      // padding-right: 40px;
       transform: translate(-50%);
       box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
       z-index: 1000;
+
 
       .navLists {
         display: flex;
@@ -46,6 +49,7 @@ header {
         width: 100%;
         margin: auto;
         padding: 1rem 0;
+        
 
         .navItem {
           padding: 1rem 0;
@@ -92,6 +96,7 @@ header {
 .activeHeader {
   background-color: var(--projectCardColor);
   box-shadow: 0 2px 4px rgba(1, 15, 29, 0.904);
+
 }
 //========MEDIA QUERIES===========
 

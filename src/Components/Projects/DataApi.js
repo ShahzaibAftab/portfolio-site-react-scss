@@ -1,16 +1,10 @@
 import img from "./Images/Travelholic.PNG"
-import img2 from "./Images/Calculator.PNG"
-import img3 from "./Images/ResponsiveNavbar.PNG"
-import img4 from "./Images/Todolist.PNG"
-import img5 from "./Images/Weatherapp.PNG"
+import img1 from "./Images/multiverse1.PNG"
 import img6 from "./Images/pizzashop.PNG"
-import img7 from "./Images/jd.PNG"
 import img8 from "./Images/delivery.PNG"
 import img9 from "./Images/newsgrid.PNG"
 import img10 from "./Images/trophy.PNG"
-import img11 from "./Images/safex.jpeg"
 import img12 from "./Images/travelholicfyp.PNG"
-import img13 from "./Images/tas.PNG"
 import img14 from "./Images/chatapp.png"
 
 const DataApi = [ 
@@ -20,24 +14,36 @@ const DataApi = [
     demo: "https://chimerical-rolypoly-91c3f4.netlify.app/",
     livelink: "https://chimerical-rolypoly-91c3f4.netlify.app/",
     github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
-    title: "Travelholic.pk",
-    desc: "Travelholic.pk is a Travel & tourism company that provides a platform to not only Travel agents but also the targetted their clients. Fully adjusted for all types of screens",
+    title: "Travel Site - Frontend",
+    desc: "Made for a Travel & tourism company that provides a platform to not only Travel agents but also the targetted their clients. Fully adjusted for all types of screens",
     tech1: "SCSS",
     tech2: "REACTJS",
     tech3: "HOOKS",
   },
   {
-    id: 7,
-    image: img11,
-    demo: "https://64f6fb34a5bd427adc989174--serene-banoffee-97d479.netlify.app/",
-    livelink: "https://64f6fb34a5bd427adc989174--serene-banoffee-97d479.netlify.app/",
-    github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
-    title: "Safex",
-    desc: "Sport site that keep records of all primary Games score, Upcoming Matches and track of all previous events and games",
-    tech1: "PYTHON",
-    tech2: "DJANGO",
-    tech3: "VUE JS",
+    id: 2,
+    image: img1,
+    demo: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
+    livelink: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
+    github: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
+    title: "Multiverse Ecom",
+    desc: "My role involved architecting and implementing the backend infrastructure using Express.js, integrating Cloudinary for file handling, and implementing JWT for enhanced authentication and security Protocols. On the frontend, my focus was on API integration, data retrieval, and mutation operations using React Query, alongside managing state using Redux Toolkit. ",
+    tech1: "MERN",
+    tech2: "Authorization",
+    tech3: "Optimization",
   },
+  // {
+  //   id: 7,
+  //   image: img11,
+  //   demo: "https://64f6fb34a5bd427adc989174--serene-banoffee-97d479.netlify.app/",
+  //   livelink: "https://64f6fb34a5bd427adc989174--serene-banoffee-97d479.netlify.app/",
+  //   github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
+  //   title: "Safex",
+  //   desc: "Sport site that keep records of all primary Games score, Upcoming Matches and track of all previous events and games",
+  //   tech1: "PYTHON",
+  //   tech2: "DJANGO",
+  //   tech3: "VUE JS",
+  // },
   {
     id: 8,
     image: img12,
@@ -53,8 +59,8 @@ const DataApi = [
   {
     id: 2,
     image: img6,
-    demo: "https://64e8a66133835e1374e1df5b--admirable-cassata-91b51b.netlify.app/",
-    livelink: "https://64e8a66133835e1374e1df5b--admirable-cassata-91b51b.netlify.app/",
+    demo: "https://655345a77a48eb413a7bb190--lovely-cucurucho-e3a95e.netlify.app/",
+    livelink: "https://655345a77a48eb413a7bb190--lovely-cucurucho-e3a95e.netlify.app/",
     github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
     title: "Pizza Shop",
     desc: "Developed responsive PSD to HTML webpage for a fast-food company, ensuring seamless adaptability across various screen sizes, including Mobile Phones, Tablets, and Desktops.",
@@ -62,30 +68,42 @@ const DataApi = [
     tech2: "CSS",
     tech3: "JAVASCRIPT",
   },
+  // {
+  //   id: 15,
+  //   image: img15,
+  //   demo: "https://651d381ff8d4072f0bdf6664--zippy-cactus-e76da3.netlify.app/",
+  //   livelink: "https://651d381ff8d4072f0bdf6664--zippy-cactus-e76da3.netlify.app/",
+  //   github: "https://github.com/ShahzaibAftab/todolist-intermediate",
+  //   title: "Todolist",
+  //   desc: "Developed using States only. Contain features like delete all, make notes, edit, Delete e.t.c",
+  //   tech1: "REACT JS",
+  //   tech2: "CHAKRA UI",
+  //   tech3: "HOOKS",
+  // },
   {
     id: 3,
     image: img14,
     demo: "https://github.com/ShahzaibAftab/Realtime-Chat-app",
     livelink: "https://github.com/ShahzaibAftab/Realtime-Chat-app",
     github: "https://github.com/ShahzaibAftab/Realtime-Chat-app",
-    title: "Photography Collection",
+    title: "Realtime Chat-App",
     desc: "Realtime Lightweight public Chat-app, Start by Entering your Name",
     tech1: "CHAKRA UI",
-    tech2: "WEB-SOCKET",
+    tech2: "SOCKET.IO",
     tech3: "NODE JS",
   },
-  {
-    id: 4,
-    image: img7,
-    demo: "https://darling-cocada-927549.netlify.app/",
-    livelink: "https://darling-cocada-927549.netlify.app/",
-    github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
-    title: "Photography Collection",
-    desc: "Developed for Photography enthusiast Client for collection of his Memories",
-    tech1: "HTML",
-    tech2: "CSS",
-    tech3: "JAVASCRIPT",
-  },
+  // {
+  //   id: 4,
+  //   image: img7,
+  //   demo: "https://darling-cocada-927549.netlify.app/",
+  //   livelink: "https://darling-cocada-927549.netlify.app/",
+  //   github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
+  //   title: "Photography Collection",
+  //   desc: "Developed for Photography enthusiast Client for collection of his Memories",
+  //   tech1: "HTML",
+  //   tech2: "CSS",
+  //   tech3: "JAVASCRIPT",
+  // },
   {
     id: 5,
     image: img8,
@@ -123,18 +141,18 @@ const DataApi = [
     tech3: "JAVASCRIPT",
   },
 
-  {
-    id: 8,
-    image: img13,
-    demo: "https://64f6fc363e38137e1511842f--unique-croissant-7c9658.netlify.app/",
-    livelink: "https://64f6fc363e38137e1511842f--unique-croissant-7c9658.netlify.app/",
-    github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
-    title: "Trusted Auction System",
-    desc: "Trusted Auction System is a web application developed using Django, a Python web framework. The system allows users to participate in online auctions, where they can upload products for bidding, place bids on products, and close auctions based on their preferred time.",
-    tech1: "PYTHON",
-    tech2: "DJANGO",
-    tech3: "SQLITE",
-  },
+  // {
+  //   id: 8,
+  //   image: img13,
+  //   demo: "https://64f6fc363e38137e1511842f--unique-croissant-7c9658.netlify.app/",
+  //   livelink: "https://64f6fc363e38137e1511842f--unique-croissant-7c9658.netlify.app/",
+  //   github: "https://github.com/ShahzaibAftab/TravelholicLandingPage",
+  //   title: "Trusted Auction System",
+  //   desc: "Trusted Auction System is a web application developed using Django, a Python web framework. The system allows users to participate in online auctions, where they can upload products for bidding, place bids on products, and close auctions based on their preferred time.",
+  //   tech1: "PYTHON",
+  //   tech2: "DJANGO",
+  //   tech3: "SQLITE",
+  // },
 
   // {
   //   id: 5,

@@ -17,6 +17,7 @@ header {
   width: 100%;
   height: 5rem;
   z-index: 1000;
+  margin-right: 100px;
 }
 header .logo a {
   color: var(--textColor);

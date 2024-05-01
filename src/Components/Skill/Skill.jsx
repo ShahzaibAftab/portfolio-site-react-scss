@@ -15,6 +15,7 @@ import { SiWoo } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { SiChakraui } from "react-icons/si";
 import { SiMaterialdesign } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import "./skill.css";
 const Skill = () => { 
   return (
@@ -70,7 +71,7 @@ const Skill = () => {
         {/* Single Group of skills */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title"> Libraries & Preprocessors</h2>
+            <h2 className="title">Frameworks & Libraries</h2>
             <span className="subTitle"></span>
           </div>
           <div className="generalSkills">
@@ -81,6 +82,13 @@ const Skill = () => {
                 <TbBrandReact className="icon" />
               </div>
               <span className="skillName">ReactJS</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <TbBrandNextjs  className="icon" />
+              </div>
+              <span className="skillName">NextJS</span>
             </div>
 
             <div className="singleSkill">

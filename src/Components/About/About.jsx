@@ -1,5 +1,6 @@
 import { TbCloudDownload } from "react-icons/tb";
-import img from "../../Assets/ProfilePic.jpg";
+import { FaGithub } from "react-icons/fa";
+import img from "../../Assets/ProfilePic.jpeg";
 import React from "react";
 import "./about.css";
 const About = () => {
@@ -18,20 +19,26 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-          I am a Success driven, determined, and passionate Full-Stack Engineer who excels in creating front-end experiences using React JS along with Numerous styling Libraries. I have a proven track record of successfully developing reuse-able component-based web applications and systems. Additionally, I possess extensive expertise in utilizing Node.js, Express.js, and MongoDB for the creation of Servers for Full-stack applications.
-           <br />
+            Software Engineer with expertise in Full Stack Web Development, specializing in MERN stack. I bring a blend of technical expertise with creative problem-solving techniques.
+
+            Hands-on experience on numerous full stack projects. These projects have honed my technical skills with valuable insights into the core of web development.
+
+             
             Ability to deliver Quality results while collaborating in rapidly
             changing work environments and team composition.
             <br />
-            Enthusiatic, Passionate and always willing to learn more technologies and frameworks to become a
+            Impactful contributions that takes company to new heights.
+            {/* Enthusiatic, Passionate and always willing to learn more technologies and frameworks to become a
             better developer then before. Determined and result
-            oriented.
+            oriented. */}
           </h4>
-          {/* <div className="aboutBtn">
-            <a href="Resume.pdf" download="Resume.pdf" className="flex">
-              Download CV <TbCloudDownload className="icon" />
+          <div className="aboutBtn">
+            <a href="https://github.com/ShahzaibAftab" className="flex">
+              Go to Github
+              <FaGithub className="icon" />
+              {/* <TbCloudDownload className="icon" /> */}
             </a>
-          </div> */}
+          </div>
         </div>
 
         <div className="aboutImgDiv">

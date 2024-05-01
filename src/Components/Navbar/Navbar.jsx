@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <header className={activeHeader}>
       <div className="logoDiv">
-        <h1 className="logo">
+        <h1 style={{marginLeft:'20px'}} className="logo">
           <a href="#home">Shahzaib Aftab</a>
         </h1>
       </div>
@@ -68,7 +68,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div onClick={showNavBar} className="toggleNavBar">
+      <div onClick={showNavBar} style={{marginRight:'20px'}} className="toggleNavBar">
         <TbGridDots className="icon" />
       </div>
     </header>
