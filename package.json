@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "cross-env CI=false npm run eslint && npm run your-build-command"
+    "build": "cross-env CI=false npm run eslint && npm run build"
   },
   "eslintConfig": {
     "extends": [
