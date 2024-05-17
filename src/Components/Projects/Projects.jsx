@@ -117,7 +117,7 @@ const Projects = () => {
 
                   <div className="imgDiv">
                     <a href={liveLink} target="_blank">
-                      <img src={image} alt={title} />
+                      <img src={image} alt={title} loading="lazy"/>
                     </a>
                   </div>
 
