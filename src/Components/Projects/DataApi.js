@@ -5,7 +5,7 @@ import img8 from "./Images/delivery.PNG"
 import img9 from "./Images/newsgrid.PNG"
 import img10 from "./Images/trophy.PNG"
 import img12 from "./Images/travelholicfyp.PNG"
-import img14 from "./Images/chatapp.png"
+import img14 from "./Images/dashboard.PNG"
 
 const DataApi = [ 
   {
@@ -54,6 +54,19 @@ const DataApi = [
     desc: "A multivendor Platform for travel and tourism companies to provide their Services, based on seperate panels for Admin, Vendor And Client. Authentication and customized Trips are Key features, Based upon Bidding Algorithm ",
     tech1: "REACT JS",
     tech2: "NODE JS",
+    tech3: "MONGO DB",
+  },
+
+  {
+    id: 8,
+    image: img14,
+    demo: "https://github.com/ShahzaibAftab/mystery-feedback-fullstack",
+    livelink: "https://github.com/ShahzaibAftab/mystery-feedback-fullstack",
+    github: "https://github.com/ShahzaibAftab/mystery-feedback-fullstack",
+    title: "Dynamic Mystery Feedback",
+    desc: "A Full-Stack Application that allow User to gather public feedback.  AI suggestions, nextAuth authentication, Resend Integration, Zod validation , Typescript   and much more.",
+    tech1: "NEXT JS",
+    tech2: "TYPESCRIPT",
     tech3: "MONGO DB",
   },
   {
