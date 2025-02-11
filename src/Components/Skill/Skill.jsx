@@ -1,22 +1,18 @@
 import React from "react";
-import { TbBrandReact } from "react-icons/tb";
-import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandReact, TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
+import { BsBootstrap, BsShadows } from "react-icons/bs";
 import { IoLogoSass } from "react-icons/io";
-import { IoLogoCss3 } from "react-icons/io";
 import { DiPhp } from "react-icons/di";
-import { BsBootstrap } from "react-icons/bs";
-import { SiHtml5 } from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
-import { GrNode } from "react-icons/gr";
-import { SiMongodb } from "react-icons/si";
-import { SiWordpress } from "react-icons/si";
-import { SiElementor } from "react-icons/si";
-import { SiWoo } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiChakraui } from "react-icons/si";
-import { SiMaterialdesign } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+import { GrMysql, GrNode } from "react-icons/gr";
+import { SiMongodb, SiWordpress, SiElementor, SiExpress, SiChakraui, SiMaterialdesign, 
+         SiPrisma, SiPostgresql, SiJsonwebtokens, SiRedux, SiAmazons3, SiReactquery, 
+         SiZod,
+         SiTailwindcss,
+         SiWoocommerce} from "react-icons/si";
+import { MdEmail } from "react-icons/md"; // for Resend
 import "./skill.css";
+import { FaReact } from "react-icons/fa";
+
 const Skill = () => { 
   return (
     <section id="Skills" className="skills container section">
@@ -30,110 +26,119 @@ const Skill = () => {
         </h5>
       </div>
 
-      {/* skill container */}
       <div className="skillsContainer grid">
-        {/* Single Group of skills */}
+        {/* Modern Development Stack */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title"> Core</h2>
+            <h2 className="title">Libraries & Framework</h2>
             <span className="subTitle"></span>
           </div>
           <div className="generalSkills">
-            {/* single skill div */}
             <div className="singleSkill">
               <div className="iconBox flex">
-                <SiHtml5 className="icon" />
+                <FaReact className="icon" />
               </div>
-              <span className="skillName">HTML5</span>
+              <span className="skillName">React Js</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <IoLogoCss3 className="icon" />
-              </div>
-              <span className="skillName">CSS3</span>
-            </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <IoLogoJavascript className="icon" />
-              </div>
-              <span className="skillName">Javascript</span>
-            </div>
-
-          </div>
-        </div>
-     
-
-      
-      {/* skill container */}
-  
-        {/* Single Group of skills */}
-        <div className="skillGroup">
-          <div className="groupTitle">
-            <h2 className="title">Frameworks & Libraries</h2>
-            <span className="subTitle"></span>
-          </div>
-          <div className="generalSkills">
-            {/* single skill div */}
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandReact className="icon" />
-              </div>
-              <span className="skillName">ReactJS</span>
-            </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <TbBrandNextjs  className="icon" />
+                <TbBrandNextjs className="icon" />
               </div>
               <span className="skillName">NextJS</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <BsBootstrap className="icon" />
+                <TbBrandTypescript className="icon" />
               </div>
-              <span className="skillName">Bootsrap5</span>
+              <span className="skillName">TypeScript</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <IoLogoSass className="icon" />
+                <SiReactquery className="icon" />
               </div>
-              <span className="skillName">SASS</span>
+              <span className="skillName">TanStack</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <SiMaterialdesign className="icon" />
+                <SiRedux className="icon" />
               </div>
-              <span className="skillName">Material UI</span>
+              <span className="skillName">Redux</span>
             </div>
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <SiChakraui className="icon" />
+                <SiTailwindcss className="icon" />
               </div>
-              <span className="skillName">Chakra UI</span>
+              <span className="skillName">TailwindCSS</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <BsShadows className="icon" />
+              </div>
+              <span className="skillName">Shadcn</span>
             </div>
 
           </div>
         </div>
 
-        
-  
-      {/* skill container */}
-          {/* Single Group of skills */}
+        {/* Database & Cloud */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title"> Backend Technologies</h2>
+            <h2 className="title">Database & Cloud</h2>
             <span className="subTitle"></span>
           </div>
           <div className="generalSkills">
-            {/* single skill div */}
-           
+
+          <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiAmazons3 className="icon" />
+              </div>
+              <span className="skillName">AWS S3</span>
+            </div>
+
+          <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiPrisma className="icon" />
+              </div>
+              <span className="skillName">Prisma</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiPostgresql className="icon" />
+              </div>
+              <span className="skillName">PostgreSQL</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiMongodb className="icon" />
+              </div>
+              <span className="skillName">MongoDB</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <GrMysql className="icon" />
+              </div>
+              <span className="skillName">MySQL</span>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Backend & Authentication */}
+        <div className="skillGroup">
+          <div className="groupTitle">
+            <h2 className="title">Backend & Auth</h2>
+            <span className="subTitle"></span>
+          </div>
+          <div className="generalSkills">
             <div className="singleSkill">
               <div className="iconBox flex">
                 <GrNode className="icon" />
@@ -150,24 +155,34 @@ const Skill = () => {
 
             <div className="singleSkill">
               <div className="iconBox flex">
-                <SiMongodb className="icon" />
+                <SiJsonwebtokens className="icon" />
               </div>
-              <span className="skillName">MongoDB</span>
+              <span className="skillName">JWT</span>
             </div>
 
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <SiZod className="icon" />
+              </div>
+              <span className="skillName">Zod</span>
+            </div>
+
+            <div className="singleSkill">
+              <div className="iconBox flex">
+                <MdEmail className="icon" />
+              </div>
+              <span className="skillName">Resend</span>
+            </div>
           </div>
         </div>
 
+        {/* Others */}
         <div className="skillGroup">
           <div className="groupTitle">
-            <h2 className="title"> Others</h2>
+            <h2 className="title">Others</h2>
             <span className="subTitle"></span>
           </div>
           <div className="generalSkills">
-            {/* single skill div */}
-           
-           
-
             <div className="singleSkill">
               <div className="iconBox flex">
                 <SiWordpress className="icon" />
@@ -184,23 +199,19 @@ const Skill = () => {
 
             <div className="singleSkill">
               <div className="iconBox flex">
+                <SiWoocommerce className="icon" />
+              </div>
+              <span className="skillName">WooCommerce</span>
+            </div>
+            <div className="singleSkill">
+              <div className="iconBox flex">
                 <DiPhp className="icon" />
               </div>
               <span className="skillName">PHP</span>
             </div>
-
-            <div className="singleSkill">
-              <div className="iconBox flex">
-                <GrMysql className="icon" />
-              </div>
-              <span className="skillName">MySQL</span>
-            </div>
-
           </div>
         </div>
-
-        </div>  
-
+      </div>
     </section>
   );
 };

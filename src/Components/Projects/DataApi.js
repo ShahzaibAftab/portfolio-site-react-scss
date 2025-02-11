@@ -1,5 +1,6 @@
 import img from "./Images/Travelholic.PNG"
 import img1 from "./Images/multiverse1.PNG"
+import img2 from "./Images/careerconnect.png"
 import img6 from "./Images/pizzashop.PNG"
 import img8 from "./Images/delivery.PNG"
 import img9 from "./Images/newsgrid.PNG"
@@ -8,6 +9,18 @@ import img12 from "./Images/travelholicfyp.PNG"
 import img14 from "./Images/dashboard.PNG"
 
 const DataApi = [ 
+  {
+    id: 1,
+    image: img2,
+    demo: "#",
+    livelink: "#",
+    github: "#",
+    title: "Career Connect",
+    desc: "Developed Job Portal from its architecture to ensuring role based encrypted authorization, Separate panels created and integrated RESTful APIs ",
+    tech1: "NextJs",
+    tech2: "Prisma",
+    tech3: "AWS S3",
+  },
   {
     id: 1,
     image: img,
@@ -26,7 +39,7 @@ const DataApi = [
     demo: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
     livelink: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
     github: "https://github.com/ShahzaibAftab/multiverse-ecom-fullstack",
-    title: "Multiverse Ecom",
+    title: "Multiverse Ecommerce",
     desc: "My role involved architecting and implementing the backend infrastructure using Express.js, integrating Cloudinary for file handling, and implementing JWT for enhanced authentication and security Protocols. On the frontend, my focus was on API integration, data retrieval, and mutation operations using React Query, alongside managing state using Redux Toolkit. ",
     tech1: "MERN",
     tech2: "Authorization",

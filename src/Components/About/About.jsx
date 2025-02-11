@@ -19,13 +19,13 @@ const About = () => {
       <div className="sectionContent grid">
         <div className="textSection">
           <h4>
-            Software Engineer with expertise in Full Stack Web Development, specializing in MERN stack. I bring a blend of technical expertise with creative problem-solving techniques.
+            Full Stack Developer with over 1.5 years of Experience in architecting and deploying production-grade applications. Specialized in modern web technologies including Next.js, React, Node.js, and cloud services (AWS). Distinguished track record of reducing application load times by 80% through advanced optimization techniques and delivering high-performance, scalable solutions across diverse industries.
+            Core strengths include:
 
-            Hands-on experience on numerous full stack projects. These projects have honed my technical skills with valuable insights into the core of web development.
-
-             
-            Ability to deliver Quality results while collaborating in rapidly
-            changing work environments and team composition.
+    <h4>- Proficiency in Next.js development, implementing sophisticated features including SSR, SSG, and ISR for optimal performance and SEO</h4>
+    <h4>- Expertise in database architecture using PostgreSQL and MongoDB, along with Prisma ORM for efficient data modeling and management</h4>
+    <h4>- Security implementation using JWT authentication, data encryption, and secure payment gateway integrations (Stripe)</h4>
+    <h4>- Expertise in state management (Redux, MobX, Zustand) and modern frontend frameworks, ensuring scalable and maintainable codebases</h4>
             <br />
             Impactful contributions that takes company to new heights.
             {/* Enthusiatic, Passionate and always willing to learn more technologies and frameworks to become a
