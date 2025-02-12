@@ -4,7 +4,7 @@ const Footer = () => {
   return (
   <section className="footer">
     <span>
-      Developed by Shahzaib Aftab 2023 | All Rights reserved.
+      Developed by Shahzaib Aftab 2025 | All Rights reserved.
     </span>
   </section>
   )
