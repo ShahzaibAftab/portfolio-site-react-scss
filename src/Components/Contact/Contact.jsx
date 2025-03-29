@@ -45,7 +45,7 @@ const Contact = () => {
                 <h4>Instagram</h4>
                 <span className='userName'>@Shahza1baftab</span>
                 <div>
-                  <a href='https://www.instagram.com/shahza1baftab/?hl=en' className='flex'>Send messege
+                  <a href='https://www.instagram.com/shahza1baftab/?hl=en' className='flex'> visit Profile
                     <TbArrowBigRightLine className='icon'>
                     </TbArrowBigRightLine></a>
                 </div>
@@ -60,7 +60,7 @@ const Contact = () => {
                 <h4>LinkedIn</h4>
                 <span className='userName'>@Shahzaib Aftab</span>
                 <div>
-                  <a href='https://www.linkedin.com/in/shahzaibaftab/?originalSubdomain=pk' className='flex'>Send messege
+                  <a href='https://www.linkedin.com/in/shahzaibaftab/?originalSubdomain=pk' className='flex'>visit LinkedIn
                     <TbArrowBigRightLine className='icon'>
                     </TbArrowBigRightLine></a>
                 </div>
@@ -90,7 +90,7 @@ const Contact = () => {
                 <h4>Email</h4>
                 <span className='userName'>@Shahhzaibaftab@gmail.com</span>
                 <div>
-                  <a href='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJZNXSpRmKxCCnRMZTSCQdrSppndrscfZmTHBhsNJZFMDPllfLCdQcfNhSHFsjCqBVGv' className='flex'>Send messege
+                  <a href='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJZNXSpRmKxCCnRMZTSCQdrSppndrscfZmTHBhsNJZFMDPllfLCdQcfNhSHFsjCqBVGv' className='flex'>Send email
                     <TbArrowBigRightLine className='icon'>
                     </TbArrowBigRightLine></a>
                 </div>
