@@ -1,3 +1,4 @@
+import img0 from "./Images/ZAHZ.png"
 import img from "./Images/Travelholic.PNG"
 import img1 from "./Images/multiverse1.PNG"
 import img2 from "./Images/careerconnect.png"
@@ -23,6 +24,18 @@ const DataApi = [
   },
   {
     id: 1,
+    image: img0,
+    demo: "https://zahztech.com/",
+    livelink: "https://zahztech.com/",
+    github: "https://zahztech.com/",
+    title: "ZAHZ Technologies",
+    desc: "Portfolio site for managing both Product and IT Services with advance Customization including Child themes, Payment Gateways and Installment Option",
+    // tech1: "SCSS",
+    // tech2: "REACTJS",
+    // tech3: "HOOKS",
+  },
+  {
+    id: 2,
     image: img,
     demo: "https://chimerical-rolypoly-91c3f4.netlify.app/",
     livelink: "https://chimerical-rolypoly-91c3f4.netlify.app/",
