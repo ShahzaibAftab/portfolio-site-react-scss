@@ -7,6 +7,7 @@ import './contact.css'
 import { AiFillInstagram } from 'react-icons/ai'
 import { TbArrowBigRightLine } from 'react-icons/tb'
 import { AiFillLinkedin } from 'react-icons/ai'
+import { FaWhatsapp } from "react-icons/fa";
 import emailjs from '@emailjs/browser'
 
 const Contact = () => {
@@ -60,6 +61,21 @@ const Contact = () => {
                 <span className='userName'>@Shahzaib Aftab</span>
                 <div>
                   <a href='https://www.linkedin.com/in/shahzaibaftab/?originalSubdomain=pk' className='flex'>Send messege
+                    <TbArrowBigRightLine className='icon'>
+                    </TbArrowBigRightLine></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="cards grid">
+              <div className="card">
+                <div>
+                  <FaWhatsapp className='icon'></FaWhatsapp>
+                </div>
+                <h4>Contact</h4>
+                <span className='userName'>(+92) 3354975505</span>
+                <div>
+                  <a href='https://wa.me/+923354975505' className='flex'>Send messege
                     <TbArrowBigRightLine className='icon'>
                     </TbArrowBigRightLine></a>
                 </div>
