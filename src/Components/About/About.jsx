@@ -1,4 +1,3 @@
-import { TbCloudDownload } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
 import img from "../../Assets/ProfilePic.jpeg";
 import React from "react";

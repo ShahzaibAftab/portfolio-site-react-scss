@@ -1,6 +1,5 @@
 import React from "react";
 import { TfiNewWindow } from "react-icons/tfi";
-import { AiFillGithub } from "react-icons/ai";
 import "./projects.css";
 import DataApi from "./DataApi.js";
 import MiniApi from "./MiniApi.js";
@@ -37,7 +36,7 @@ const Projects = () => {
                 <div key={id} className="singleProject">
                   <div className="externalLinks flex">
                     <div className="youtubeIcon">
-                      <a href={demo} target="_blank">
+                      <a href={demo} target="_blank" rel="noreferrer">
                         <TfiNewWindow className="icon"></TfiNewWindow>
                       </a>
                     </div>
@@ -49,7 +48,7 @@ const Projects = () => {
                   </div>
 
                   <div className="imgDiv">
-                    <a href={liveLink} target="_blank">
+                    <a href={liveLink} target="_blank" rel="noreferrer">
                       <img src={image} alt={title} />
                     </a>
                   </div>
@@ -104,7 +103,7 @@ const Projects = () => {
                 <div key={id} className="singleProject">
                   <div className="externalLinks flex">
                     <div className="youtubeIcon">
-                      <a href={demo} target="_blank">
+                      <a href={demo} target="_blank" rel="noreferrer">
                         <TfiNewWindow className="icon"></TfiNewWindow>
                       </a>
                     </div>
@@ -116,7 +115,7 @@ const Projects = () => {
                   </div>
 
                   <div className="imgDiv">
-                    <a href={liveLink} target="_blank">
+                    <a href={liveLink} target="_blank" rel="noreferrer">
                       <img src={image} alt={title} loading="lazy"/>
                     </a>
                   </div>

@@ -11,15 +11,15 @@ const Home = () => {
       {/* Only visible to wider screen */}
       <div className="leftIcons">
   <div className="socials grid">
-    <a href='https://github.com/ShahzaibAftab/' target={'_blank'}>
+    <a href='https://github.com/ShahzaibAftab/' target={'_blank'} rel="noreferrer">
       <AiFillGithub className='icon'/>
     </a>
     
-    <a href='https://wa.me/+923354975505' target={'_blank'}>
+    <a href='https://wa.me/+923354975505' target={'_blank'} rel="noreferrer">
       <BsWhatsapp className='icon'/>
     </a>
 
-    <a href='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJZNXSpRmKxCCnRMZTSCQdrSppndrscfZmTHBhsNJZFMDPllfLCdQcfNhSHFsjCqBVGv' target={'_blank'}>
+    <a href='https://mail.google.com/mail/u/0/#inbox?compose=VpCqJZNXSpRmKxCCnRMZTSCQdrSppndrscfZmTHBhsNJZFMDPllfLCdQcfNhSHFsjCqBVGv' target={'_blank'} rel="noreferrer">
       <CgMail className='icon'/>
     </a>
     <div className='line'></div>
@@ -54,7 +54,7 @@ const Home = () => {
       {/* right Div visible at wider screen */}
       <div className="rightEmail">
         <div className="emailAddress">
-            <a href="https://mailto:shahhzaibaftab@gmail.com" target="_blank">shahhzaibaftab@gmail.com</a>
+            <a href="https://mailto:shahhzaibaftab@gmail.com" target="_blank" rel="noreferrer">shahhzaibaftab@gmail.com</a>
           
           <div className="line"></div>
         </div>
