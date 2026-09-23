@@ -1,10 +1,9 @@
 import React from "react";
-import { TbBrandReact, TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
-import { BsBootstrap, BsShadows } from "react-icons/bs";
-import { IoLogoSass } from "react-icons/io";
+import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
+import { BsShadows } from "react-icons/bs";
 import { DiPhp } from "react-icons/di";
 import { GrMysql, GrNode } from "react-icons/gr";
-import { SiMongodb, SiWordpress, SiElementor, SiExpress, SiChakraui, SiMaterialdesign, 
+import { SiMongodb, SiWordpress, SiElementor, SiExpress, 
          SiPrisma, SiPostgresql, SiJsonwebtokens, SiRedux, SiAmazons3, SiReactquery, 
          SiZod,
          SiTailwindcss,
